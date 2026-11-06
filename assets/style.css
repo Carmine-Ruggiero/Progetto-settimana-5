@@ -183,6 +183,12 @@ body.dark-mode .btn-cta {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
+  color: #0b7a3a;
+   transform: translateY(-5px); 
+  background-color: hsl(150, 60%, 95%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  
 }
 .service-card:hover{
    color: #0b7a3a;
