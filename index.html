@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bloom - Studio di design</title>
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
 
 </head>
 
@@ -15,7 +16,7 @@
     <header id="site-header">
         <div class="header-container">
             <div class="logo">
-                <ion-icon name="enter-outline"></ion-icon alt="Bloom Logo">
+                <p id="Bloom">Bloom <ion-icon name="leaf-outline"></ion-icon>
             </div>
             <nav class="main-nav">
                 <ul>
@@ -26,7 +27,7 @@
                 </ul>
             </nav>
             <button class="theme-toggle" aria-label="Cambia tema">
-                <!-- Icona della luna per il tema scuro -->
+
                 <ion-icon name="moon-outline"></ion-icon>
             </button>
         </div>
@@ -48,12 +49,12 @@
         <section id="works" class="portfolio">
             <h2>I nostri lavori</h2>
             <div class="portfolio-grid">
-                <div class="portfolio-item" class="theme-toggle" ><img src="img/segnaposto.png" alt="Progetto 1"></div>
-                <div class="portfolio-item" class="theme-toggle" ><img src="img/segnaposto.png" alt="Progetto 2"></div>
-                <div class="portfolio-item" class="theme-toggle" ><img src="img/segnaposto.png" alt="Progetto 3"></div>
-                <div class="portfolio-item"class="theme-toggle"><img src="img/segnaposto.png" alt="Progetto 4"></div>
-                <div class="portfolio-item"class="theme-toggle"><img src="img/segnaposto.png" alt="Progetto 4"></div>
-                <div class="portfolio-item"class="theme-toggle"><img src="img/segnaposto.png" alt="Progetto 4"></div>
+                <div class="portfolio-item" class="theme-toggle"><img src="img/segnaposto.png" alt="Progetto 1"></div>
+                <div class="portfolio-item" class="theme-toggle"><img src="img/segnaposto.png" alt="Progetto 2"></div>
+                <div class="portfolio-item" class="theme-toggle"><img src="img/segnaposto.png" alt="Progetto 3"></div>
+                <div class="portfolio-item" class="theme-toggle"><img src="img/segnaposto.png" alt="Progetto 4"></div>
+                <div class="portfolio-item" class="theme-toggle"><img src="img/segnaposto.png" alt="Progetto 4"></div>
+                <div class="portfolio-item" class="theme-toggle"><img src="img/segnaposto.png" alt="Progetto 4"></div>
 
             </div>
         </section>
@@ -62,27 +63,29 @@
         <section id="services" class="services">
             <h2>I nostri servizi</h2>
             <div class="services-grid">
-                
+
                 <!-- Servizio 1 -->
                 <div class="service-card">
-                    <div class="service-icon" class="theme-toggle" ><ion-icon name="flash-outline"></ion-icon></div>
+                    <div class="service-icon" class="theme-toggle"><ion-icon name="flash-outline"></ion-icon></div>
                     <h3>Identità visiva</h3>
                     <p>Logo, palette, tipografia e linee guida per un brand coerente, riconoscibile e duraturo.</p>
                 </div>
                 <!-- Servizio 2 -->
                 <div class="service-card">
-                    <div class="service-icon"class="theme-toggle" ><ion-icon name="laptop-outline"></ion-icon></div>
+                    <div class="service-icon" class="theme-toggle"><ion-icon name="laptop-outline"></ion-icon></div>
                     <h3>Web design</h3>
                     <p>Siti vetrina e landing page responsive, accessibili e ottimizzate per dispositivi mobili.</p>
                 </div>
                 <!-- Servizio 3 -->
                 <div class="service-card">
-                    <div class="service-icon"class="theme-toggle" ><ion-icon name="pencil-outline"></ion-icon></div>
+                    <div class="service-icon" class="theme-toggle"><ion-icon name="pencil-outline"></ion-icon></div>
                     <h3>Motion graphic</h3>
                     <p>Animazioni e brevi video per raccontare il prodotto, i social e le campagne pubblicitarie.</p>
                 </div>
             </div>
         </section>
+
+
 
         <!--  Il Nostro Team -->
         <section id="team" class="team">
@@ -124,8 +127,19 @@
                     <p class="role">CONTENT MANAGER </p>
                     <p> Definire piani editoriali, obiettivi di brand e linee guida sul tono di voce</p>
                 </div>
+                <!--membro 6-->
+                <div class="team-card">
+                    <div class="avatar-circle">AB</div>
+                    <h3>ANNA BIANCHI</h3>
+                    <p class="role">ASSISTANT MANAGER </p>
+                    <p> Aiuta a creare e revisionare wireframe, storyboard, sitemap, flussi di navigazione e prototipi
+                        grafici per il sito web</p>
+                </div>
 
         </section>
+
+
+
 
         <!-- Recensioni -->
         <section class="testimonials">
@@ -221,18 +235,24 @@
     <!-- Footer di sistema -->
     <footer id="site-footer">
         <div class="footer-container">
+            <!-- Logo e descrizione -->
             <div class="footer-logo">
-                <ion-icon name="enter-outline"></ion-icon alt="Bloom Logo">
+                <span class="logo-icon" aria-label="Bloom Logo">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </span>
                 <p>Studio di design fondato nel 2026.</p>
             </div>
+
+       
             <div class="footer-socials">
-                <!-- Icone di Ionicons al posto delle emoji -->
                 <a href="#" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
                 <a href="#" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
                 <a href="#" aria-label="Behance"><ion-icon name="logo-behance"></ion-icon></a>
             </div>
+
+            
             <div class="footer-copyright">
-                <p>&copy; 2026 Bloom</p>
+                <p>&copy; 2026 Bloom. Tutti i diritti riservati.</p>
             </div>
         </div>
     </footer>

@@ -1,0 +1,39 @@
+/*  RESPONSIVE DESIGN */
+@media (max-width: 992px) {
+  .portfolio-grid, .services-grid, .team-grid, .testimonials-slider {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container, .footer-container {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  .portfolio-grid, .services-grid, .team-grid, .testimonials-slider {
+    grid-template-columns: 1fr;
+     color: #0b7a3a;
+   transform: translateY(-5px); 
+  background-color: hsl(150, 60%, 95%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/*     Media Query per Smartphone      */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .footer-logo {
+    align-items: center;
+  }
+}
