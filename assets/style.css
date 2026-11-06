@@ -46,15 +46,18 @@ section h2 {
   text-align: center;
   margin-bottom: 50px;
 }
+
+/* Header & Navigazione */
 #site-header {
-  position: sticky;
+  position: sticky; 
   top: 0;
-  z-index: 1000; /* Assicura che l'header rimanga sopra i contenuti che scorrono */
   left: 0;
   width: 100%;
   background-color: #ffffff;
   border-bottom: 1px solid #e0e0e0;
+  z-index: 1000;
   transition: background-color 0.3s, border-color 0.3s;
+  
 }
 
 body.dark-mode #site-header {
@@ -90,6 +93,8 @@ body.dark-mode #site-header {
 
 .main-nav a:hover {
   color: #0b7a3a;
+  transition: 0.3;
+  background-color: hsl(150, 60%, 95%)
 }
 
 body.dark-mode .main-nav a:hover {
