@@ -419,7 +419,7 @@ body.dark-mode .btn-submit {
 
 
 /* FOOTER */
-/* Struttura principale del footer */
+
 #site-footer {
   background-color: #111111;
   color: #ffffff;
@@ -437,7 +437,7 @@ body.dark-mode .btn-submit {
     gap: 30px; 
   }
 
-  /* Blocco Logo e Testo */
+  /* Blocco Logo e Testo  */
   .footer-logo {
     display: flex;
     flex-direction: column;
