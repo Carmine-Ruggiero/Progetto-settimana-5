@@ -14,7 +14,7 @@ body {
   background-color: #ffffff;
   color: #333333;
   transition: background-color 0.3s, color 0.3s;
-  overflow-x: hidden;
+  overflow-anchor: none;
 }
 
 body.dark-mode {
@@ -184,7 +184,13 @@ body.dark-mode .btn-cta {
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
-
+.service-card:hover{
+   color: #0b7a3a;
+   transform: translateY(-5px); 
+  background-color: hsl(150, 60%, 95%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
 .portfolio-item {
   background-color: #f9f9f9;
   border-radius: 12px;
